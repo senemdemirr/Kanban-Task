@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=SF Pro Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+body{
+    background: #000000;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.board-title{
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2%;
+}
+.board-text{
+    display: inline-flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-bottom: 50px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.container{
+    width: 368px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #262626;
+    float: left;
+    margin: 10px;
+}
+h1{
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'SF Pro Display' , sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 44px;
+}
+.card-container{
+    width: 320px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #3F88E4;
+    margin-top: 16px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.add-task{
+    margin-right: 5%;
+    margin-top: 2%;
+    cursor: pointer;
+}
