@@ -1,6 +1,6 @@
 # Kanban-Task
 
-##Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 **react-beatiful-dnd**
 
@@ -11,7 +11,7 @@
 **axios**
 
 
-##Kurulum
+## Kurulum
 
 ```bash
 git clone https://github.com/senemdemirr/Kanban-Task.git
@@ -32,4 +32,3 @@ npm start
 
 
 [livee demo](https://extraordinary-cactus-4e5235.netlify.app/)
-
