@@ -3,9 +3,13 @@
 ##Kullanılan Teknolojiler
 
 **react-beatiful-dnd**
+
 **json-server**
+
 **dotenv**
+
 **axios**
+
 
 ##Kurulum
 
