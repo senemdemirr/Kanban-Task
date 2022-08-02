@@ -62,7 +62,7 @@ function Board() {
   return (
     <div>
       <div className='top'>
-        <div>
+        <div className='top-left'>
           <h1 className='board-title'>Roadmop</h1>
           <span className='board-text'>By Isaac N.C. Visit website</span>
         </div>
@@ -88,8 +88,8 @@ function Board() {
                                     <div className='card-container' ref={provider.innerRef}
                                     {...provider.dragHandleProps}
                                     {...provider.draggableProps}>
-                                      <p>{item.taskTitle}</p>
-                                      <p>{item.taskDescription}</p>
+                                      <p className='item-title'>{item.taskTitle}</p>
+                                      <p className='item-text'>{item.taskDescription}</p>
                                     </div>
                                   )
                                 }}
